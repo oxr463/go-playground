@@ -1,7 +1,7 @@
-package main
+package play
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello, World!")
+func play() {
+    fmt.Println("This is wild!")
 }
