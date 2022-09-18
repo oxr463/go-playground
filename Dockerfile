@@ -8,4 +8,4 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/reposit
 WORKDIR /usr/src/go-playground
 COPY . /usr/src/go-playground
 
-RUN mage
+RUN mage build
