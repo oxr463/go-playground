@@ -6,7 +6,7 @@ import (
 
 var getSourceGithubCmd = &cobra.Command{
 	Use:   "github",
-	Short: "Get source github",
+	Short: "Get github source",
 	Long:  "",
 }
 

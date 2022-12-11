@@ -4,7 +4,7 @@ import (
 	"os"
 )
 
-type package struct {
+type Package struct {
 	source  string
 	url     string
 	version string
